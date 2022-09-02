@@ -135,3 +135,6 @@ body ::-webkit-scrollbar-thumb {
   transition: all 0.8s ease;
 }
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}

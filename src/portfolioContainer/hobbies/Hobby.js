@@ -31,7 +31,6 @@ export default function Hobby() {
                 >
                   Listening to Music
                 </span>
- 
                 <div class="resume-main-heading">
                   <div class="heading-bullet"></div>
                 </div>

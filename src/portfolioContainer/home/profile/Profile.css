@@ -65,6 +65,7 @@
 }
 
 .profile-picture-background {
+  margin-top: 25px;
   height: 92%;
   width: 92%;
   background-image: url("../../../assets/home/profilephoto.jpg");

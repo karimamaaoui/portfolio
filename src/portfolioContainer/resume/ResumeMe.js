@@ -1,12 +1,15 @@
 import React from "react";
 import "./ResumeMe.css";
+import cover from "../../assets/ilc.jpg";
+import cover2 from "../../assets/tech.png";
+import cover3 from "../../assets/its.jpg";
+
 export default function ResumeMe() {
   return (
     <div
       class="resume-container screen-container fade-in"
       id="Resume"
-      style={{ opacity: "5", transform: "translateY(1px)" }}
-    >
+      style={{ opacity: "5", transform: "translateY(1px)" }} >
       <div class="resume-content">
         <div class="heading-container">
           <div class="screen-heading">
@@ -22,350 +25,373 @@ export default function ResumeMe() {
             </div>
           </div>
         </div>
-        <div class="resume-card">
-          <div class="resume-bullets">
-            <div class="bullet-container">
-              <div class="bullet-icons"></div>
-              <div class="bullets">
-                <div class="bullet">
-                  <img
-                    class="bullet-logo"
-                    src="/static/media/education.10cfa28a.svg"
-                    alt="B"
-                  />
-                  <span class="bullet-label">Education</span>
-                </div>
-                <div class="bullet">
-                  <img
-                    class="bullet-logo"
-                    src="/static/media/work-history.a566475d.svg"
-                    alt="B"
-                  />
-                  <span class="bullet-label">Work History</span>
-                </div>
-                <div class="bullet">
-                  <img
-                    class="bullet-logo"
-                    src="/static/media/programming-skills.d19983a9.svg"
-                    alt="B"
-                  />
-                  <span class="bullet-label">Programming Skills</span>
-                </div>
-                <div class="bullet selected-bullet">
-                  <img
-                    class="bullet-logo"
-                    src="/static/media/projects.2b352a52.svg"
-                    alt="B"
-                  />
-                  <span class="bullet-label">Projects</span>
-                </div>
-                <div class="bullet">
-                  <img
-                    class="bullet-logo"
-                    src="/static/media/interests.809890a3.svg"
-                    alt="B"
-                  />
-                  <span class="bullet-label">Interests</span>
-                </div>
-              </div>
+        <div class="">
+          <h3>Education</h3>
+          <div class="resume-heading">
+            <div class="resume-main-heading">
+              <div class="heading-bullet"></div>
+              <span style={{ textTransform: "uppercase" }}>
+                Higher Institute of Technological Studies of Rades (ISET Rades)
+              </span>
+              <div class="heading-date">2019-2022</div>
+            </div>
+
+            <div class="resume-sub-heading">
+              <span>Applied License in Systems Development information </span>
+            </div>
+            <br />
+            <div class="resume-main-heading">
+              <div class="heading-bullet"></div>
+              <span style={{ textTransform: "uppercase" }}>
+                high school Montfleury
+              </span>
+              <div class="heading-date">2018</div>
+            </div>
+            <div class="resume-sub-heading">
+              <span>Baccalaureate in Computer Science </span>
             </div>
           </div>
-          <div class="resume-bullet-details">
-            <div
-              class="resume-details-carousal"
-              style={{ transform: "translateY(-1080px);" }}
-            >
-              <div class="resume-screen-container">
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>University of Legon Accra, Ghana</span>
-                    <div class="heading-date">2014-2018</div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span></span>
-                  </div>
-                </div>
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>National Youth Service Corps</span>
-                    <div class="heading-date">2019-2020</div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span>
-                      Ministry Of Science And Technogy. Uyo Akwa Ibom State
-                    </span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span></span>
-                  </div>
-                </div>
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>High School </span>
-                    <div class="heading-date">2007-2012</div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span>Command Secondary School Mbiri</span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-              <div class="resume-screen-container">
-                <div class="experience-container">
-                  <div class="resume-heading">
-                    <div class="resume-main-heading">
-                      <div class="heading-bullet"></div>
-                      <span>Ehizeex Technoloy</span>
-                      <div class="heading-date">2021-Present</div>
-                    </div>
-                    <div class="resume-sub-heading">
-                      <span>FULL STACK DEVELOPER INTERN</span>
-                    </div>
-                    <div class="resume-heading-description">
-                      <span></span>
-                    </div>
-                  </div>
-                  <div class="experience-description">
-                    <span class="resume-description-text">
-                      Currently working as MERN stack web and mobile developer
-                      and also an online instructor on udemy.
-                    </span>
-                  </div>
-                  <div class="experience-description">
-                    <span class="resume-description-text">
-                      - Developed an ecommerce website for client with the
-                      dashboard for managing the products, managing reviews,
-                      users, payment etc. .
-                    </span>
-                    <br />
-                    <span class="resume-description-text">
-                      - Integrated the web app with backend services to create
-                      new user onboarding application with dynamic form content.
-                    </span>
-                    <br />
-                    <span class="resume-description-text">
-                      - I stretch my mental capacity to develope UI as per the
-                      given designs.
-                    </span>
-                    <br />
-                  </div>
-                </div>
-              </div>
-              <div class="resume-screen-container programming-skills-container">
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>JavaScript</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "85%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>React JS</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "85%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>React Native</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "85%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>Express JS</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "89%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>Node JS</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "89%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>Mongo Db</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "70%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>Core Java</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "80%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>HTML</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "80%;" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill-parent">
-                  <div class="heading-bullet"></div>
-                  <span>CSS</span>
-                  <div class="skill-percentage">
-                    <div
-                      class="active-percentage-bar"
-                      style={{ width: "80%;" }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div class="resume-screen-container">
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>Personal Portfolio Website</span>
-                    <div class="heading-date">2020-2021</div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span>Technologies Used: React JS, Bootsrap</span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span>
-                      A Personal Portfolio website to showcase all my details
-                      and projects at one place.
-                    </span>
-                  </div>
-                </div>
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>Mobile E-shop </span>
-                    <div class="heading-date">2020-2021</div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span>
-                      Technologies Used: React Native, Mongo DB, Express Js,
-                      Node Js, Redux.
-                    </span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span>
-                      An ecommerce application designed to sell products online
-                      wth payment system integration
-                    </span>
-                  </div>
-                </div>
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>Ecommerce Website </span>
-                    <div class="heading-date">2020-2021</div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span>
-                      Technologies Used: Mongo DB, Epress Js, React Js, Node JS,
-                      Redux, Bootstrap.
-                    </span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span>
-                      Online ecommerce website for showcasing and selling
-                      products onlne with payment system integration, both
-                      Paypal and Stripe
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="resume-screen-container">
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>Teaching</span>
-                    <div></div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span></span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span>
-                      Apart from being a tech enthusiast and a code writer, i
-                      also love to teach people what i know simply because i
-                      believe in sharing.
-                    </span>
-                  </div>
-                </div>
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>Music</span>
-                    <div></div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span></span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span>
-                      Listening to soothing music is something i can never
-                      compromise with, skimming through Spotify's pop songs
-                      charts is at times the best stress reliever that i can get
-                      my hands on.
-                    </span>
-                  </div>
-                </div>
-                <div class="resume-heading">
-                  <div class="resume-main-heading">
-                    <div class="heading-bullet"></div>
-                    <span>Competitive Gaming</span>
-                    <div></div>
-                  </div>
-                  <div class="resume-sub-heading">
-                    <span></span>
-                  </div>
-                  <div class="resume-heading-description">
-                    <span>
-                      I like to challenge my reflexes a lot while competing in
-                      football games, pushing the rank and having interactive
-                      gaming sessions excites me the most.
-                    </span>
-                  </div>
-                </div>
+        </div>
+
+        <div class="heading-container">
+          <div class="screen-sub-heading">
+            <span></span>
+          </div>
+          <div class="heading-seperator">
+            <div class="seperator-line"></div>
+            <div class="seperator-blob">
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-screen-container">
+          <div class="resume-heading">
+            <h3>Internships</h3>
+
+            <div class="resume-main-heading">
+              <div class="heading-bullet"></div>
+              <span className="title">End-of-study internship </span>
+              <div class="heading-date">2022 (4 months)</div>
+            </div>
+            <div class="resume-sub-heading">
+              <span>tanit Web agency</span>
+            </div>
+          </div>
+          <div class="resume-heading">
+            <div class="resume-main-heading">
+              <div class="heading-bullet"></div>
+              <span className="title">Internship</span>
+              <div class="heading-date">2021 (2 months)</div>
+            </div>
+            <div class="resume-sub-heading">
+              <span>tanit Web agency</span>
+            </div>
+          </div>
+          <div class="resume-heading">
+            <div class="resume-main-heading">
+              <div class="heading-bullet"></div>
+              <span className="title">Internship</span>
+              <div class="heading-date">2020 (1 months)</div>
+            </div>
+            <div class="resume-sub-heading">
+              <span>the national office of Sanitation (ONAS)</span>
+            </div>
+          </div>
+
+          <div class="heading-container">
+            <div class="screen-sub-heading">
+              <span></span>
+            </div>
+            <div class="heading-seperator">
+              <div class="seperator-line"></div>
+              <div class="seperator-blob">
+                <div></div>
               </div>
             </div>
           </div>
         </div>
+        <div class="">
+          <h3>Certifications</h3>
+       
+          <div class="react-reveal cert-card">
+            <div class="content">
+              <a
+                href="https://drive.google.com/file/d/1i4mzmtzdegXqFDsaVAvVV-hyqKggWcU5/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="content-overlay"></div>
+                <div class="cert-header">
+                  <img class="logo_img" src={cover2} alt="" />
+                </div>
+                <div class="content-details fadeIn-top">
+                  <h2 class="content-title" style={{ color: "orange" }}>
+                  SPRING BOOT & ANGULAR 
+                  </h2>
+                </div>
+              </a>
+            </div>
+            <div class="cert-body">
+              <h2 class="cert-body-title">
+                <div class="resume-main-heading">
+                  <div class=""></div>
+                  <span style={{ textTransform: "uppercase" }}>
+                    Technologia Academy <br/> Center
+                  </span>
+                  <div class="heading-date">2021</div>
+                </div>
+              </h2>
+            </div>
+          </div>
+          {' '}
+          <div class="react-reveal cert-card">
+            <div class="content">
+              <a
+                href="https://drive.google.com/file/d/1ddS0x0rW8pdBkI9ed9PS0O55Vovy1kiR/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="content-overlay"></div>
+                <div class="cert-header">
+                  <img class="logo_img" src={cover} alt="" />
+                </div>
+                <div class="content-details fadeIn-top">
+                  <h2 class="content-title" style={{ color: "orange" }}>
+                    ENGLISH
+                  </h2>
+                </div>
+              </a>
+            </div>
+            <div class="cert-body">
+            <h2 class="cert-body-title">
+                <div class="resume-main-heading">
+                  <div class=""></div>
+                  <span style={{ textTransform: "uppercase" }}>
+                  interactive language <br/> center  ilc-tunisie
+                  </span>
+              <div class="heading-date">2021</div>
+            
+                </div>
+              </h2>
+          
+              </div>
+          </div>
+          {' '}
+    
+          <div class="react-reveal cert-card">
+            <div class="content">
+              <a
+                href="https://drive.google.com/file/d/1kk4NdWCXfWXye8mp41l7CSuXQO3AZE8L/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="content-overlay"></div>
+                <div class="cert-header">
+                  <img class="logo_img" src={cover3} alt="" />
+                </div>
+                <div class="content-details fadeIn-top">
+                  <h2 class="content-title" style={{ color: "orange" }}>
+                    JAVA 8
+                  </h2>
+                </div>
+              </a>
+            </div>
+            <div class="cert-body">
+            <h2 class="cert-body-title">
+                <div class="resume-main-heading">
+                  <div class=""></div>
+                  <span style={{ textTransform: "uppercase" }}>
+                  INTERNATIONAL TRAINING <br/> SOLUTIONS (ITS)
+
+                  </span>
+              <div class="heading-date">2018</div>
+            
+                </div>
+              </h2>
+          
+            </div>
+          </div>
+        
+        </div>
+        <br/>
+        <div class="heading-container">
+          <div class="screen-sub-heading">
+            <span></span>
+          </div>
+          <div class="heading-seperator">
+            <div class="seperator-line"></div>
+            <div class="seperator-blob">
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h3>Skills</h3>
+          <br />
+          <div class="" style={{marginLeft:"60px"}} >
+              <div class="resume-heading">
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                <div class="heading-bullet"></div>
+                <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  JavaScript
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                <div class="heading-bullet"></div>
+                <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Library React JS
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                <div class="heading-bullet"></div>
+                <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Framework Flutter
+                </span>
+ 
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Framework Express JS
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Mongo Db
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Java
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  HTML 5
+                </span>
+ 
+ 
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  CSS 3
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Php
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >
+                  Framework Symfony 5
+                </span>
+ 
+                 </div>
+              
+                 <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Framework Spring Boot
+                </span>
+                
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Framework Angular
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Node JS
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Bootstrap
+                </span>
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Modeling language unified (UML)
+                </span>
+ 
+                    
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Python
+                </span>
+ 
+ 
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                               <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >Oracle Database
+                </span>
+            </div>
+   
+        </div>
       </div>
+      <br />
+
     </div>
   );
 }

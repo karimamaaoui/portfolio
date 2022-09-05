@@ -14,7 +14,7 @@ export default function Profile() {
                         <i className='fa fa-facebook-square'></i>
                     </a>
                    
-                    <a href="#" >
+                    <a href="mailto:maaouika07@gmail.com" >
                         <i className='fa fa-google-plus-square'></i>
                     </a>
                
@@ -41,9 +41,9 @@ export default function Profile() {
                 <div className='profile-details-name'>
                     <span className='primary-text'>
                         {" "}
-                        Hello, I'M  {" "}
+                        HELLO, I'M  {" "}
                         <span className='highlighted-text'>
-                            Karima
+                            KARIMA MAAOUI
                         </span>
 
                     </span>
@@ -69,10 +69,13 @@ export default function Profile() {
                     </span>
                 </div>
                 <div className='profile-options'>
+                <a href="https://www.linkedin.com/in/maaoui-karima-37a102209">
+
                     <button className='btn primary-btn'>
                         {" "}
                         Hire Me {" "}
                     </button>
+                    </a>
                     <a href='karima.pdf' download='karima maaoui cv.pdf'>
                         <button className='btn highlighted-btn'>
                             Get Resume

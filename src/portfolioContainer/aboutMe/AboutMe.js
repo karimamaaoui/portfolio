@@ -2,7 +2,7 @@ import React from "react";
 import './AboutMe.css'
 export default function AboutMe() {
   return (
-    <div
+    <div style={{marginTop:'12px'}}
       class="about-me-container screen-container fade-in"
       id="AboutMe"
     >
@@ -27,9 +27,8 @@ export default function AboutMe() {
             <span class="about-me-description">
               Full stack web and mobile developer with background knowledge of
               MERN stacks with redux, along with a knack of building
-              applications with utmost efficiency. Strong professional with a
-              BSC willing to be an asset for an organization.
-            </span>
+              applications with utmost efficiency.
+                          </span>
             <div class="about-me-highlights">
               <div class="highlight-heading">
                 <span>Here are a Few Highlights:</span>
@@ -40,11 +39,7 @@ export default function AboutMe() {
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Interactive Front End as per the design</span>
-              </div>
-              <div class="highlight">
-                <div class="highlight-blob"></div>
-                <span>React and React Native</span>
+                <span>React Js</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>

@@ -40,7 +40,6 @@ export default function Hobby() {
                 >
                  Reading  Books
                 </span>
- 
                 <div class="resume-main-heading">
                   <div class="heading-bullet"></div>
                 </div>

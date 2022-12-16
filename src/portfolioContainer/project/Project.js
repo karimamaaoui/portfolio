@@ -6,8 +6,7 @@ export default function Project() {
     <div
       class="resume-container screen-container fade-in"
       id="Resume"
-      style={{ opacity: "5", transform: "translateY(1px)" }}
-    >
+      style={{ opacity: "5", transform: "translateY(1px)" }}>
       <div class="resume-content">
         <div class="heading-container">
           <div class="screen-heading">
@@ -25,6 +24,31 @@ export default function Project() {
         </div>
         <div class="container">
           <div class="row">
+          <div class="col-lg-4">
+              <div class="card card-margin">
+                <br />
+                <div class="card-body pt-0">
+                  <div class="resume-main-heading">
+                    <span>Bank service </span>
+
+                    <div class="heading-date" style={{ marginTop: "12px" }}>
+                      2022
+                    </div>
+                  </div>
+                  <div class="resume-sub-heading">
+                    <span>
+                      Technologies Used: C , MySql.
+                    </span>
+                  </div>
+                  <div class="resume-heading-description">
+                    <span>
+                      Bank service you can create an account that makes you display your account information, also you add or withdraw money from your account and you transfer money to another account. 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
             <div class="col-lg-4">
               <div class="card card-margin">
                 <br />

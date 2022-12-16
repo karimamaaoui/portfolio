@@ -169,9 +169,12 @@
   font-size: 14px;
   border-radius: 14px;
   color: var(--white);
+  height: 23px;
 
 }
-
+.cert-card{
+  height: 200px;
+}
 .skill-parent {
   display: flex;
   flex-direction: column;

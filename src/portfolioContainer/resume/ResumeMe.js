@@ -28,6 +28,18 @@ export default function ResumeMe() {
         <div class="">
           <h3>Education</h3>
           <div class="resume-heading">
+          <div class="resume-main-heading">
+              <div class="heading-bullet"></div>
+              <span style={{ textTransform: "uppercase" }}>
+                Tek-Up University
+              </span>
+              <div class="heading-date">2022-Today</div>
+            </div>
+            <div class="resume-sub-heading">
+              <span>Engineering degree </span>
+            </div>
+
+    <br/>
             <div class="resume-main-heading">
               <div class="heading-bullet"></div>
               <span style={{ textTransform: "uppercase" }}>
@@ -113,7 +125,105 @@ export default function ResumeMe() {
         </div>
         <div class="">
           <h3>Certifications</h3>
-       
+          <div class="react-reveal cert-card">
+            <div class="content">
+              <a
+                 href="https://www.coursera.org/account/accomplishments/certificate/DUGMP7K7LMUZ"
+                 target="_blank"
+                rel="noopener noreferrer">
+                <div class="content-overlay"></div>
+                <div class="cert-header">
+                  <img class="logo_img" src="https://yt3.ggpht.com/a/AGF-l7-rOqnsoRaW8LTM75Y2vuElIySnOe18OPUNnA=s900-c-k-c0xffffffff-no-rj-mo"
+            style={{borderRadius:"12px"}} alt="" />
+                </div>
+                <div class="content-details fadeIn-top">
+                  <h2 class="content-title" style={{ color: "orange" ,fontSize:"22px"}}>
+                  Fundamentals of Red Hat<br/> Enterprise Linux
+                  </h2>
+                </div>
+              </a>
+            </div>
+            <div class="cert-body">
+              <h2 class="cert-body-title">
+                <div class="resume-main-heading">
+                  <div class=""></div>
+                  <br/>  <span style={{ textTransform: "uppercase",textAlign:"center"}}>
+                  Coursera Certificate <br/> 
+                    </span>
+                  <br/>
+                  <div class="heading-date">2022</div>
+                </div>
+              </h2>
+            </div>
+          </div>
+          
+
+          <div class="react-reveal cert-card" >
+            <div class="content">
+              <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/7TMAE8E3DC7S"
+                  target="_blank"
+                rel="noopener noreferrer">
+                <div class="content-overlay"></div>
+                <div class="cert-header">
+                  <img class="logo_img" style={{borderRadius:"12px"}} src="https://yt3.ggpht.com/a/AGF-l7-rOqnsoRaW8LTM75Y2vuElIySnOe18OPUNnA=s900-c-k-c0xffffffff-no-rj-mo" alt="" />
+                </div>
+                <div class="content-details fadeIn-top">
+                  <h2 class="content-title" style={{ color: "orange" ,fontSize:"20px"}}>
+                  Python and Statistics <br/>for Financial Analysis 
+                  </h2>
+                </div>
+              </a>
+            </div>
+            <div class="cert-body" style={{height:"12px"}}>
+              <h2 class="cert-body-title">
+                <div class="resume-main-heading">
+                  <div class=""></div>
+                  <br/>
+                  <span style={{ textTransform: "uppercase",fontSize:"16px" }}>
+                    Coursera Certificate <br/> 
+                  </span>
+                  <br/>
+                  <div class="heading-date">2022</div>
+                </div>
+              </h2>
+            </div>
+          </div>
+          <div class="react-reveal cert-card">
+            <div class="content">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/VNVZDBNMJGG3"
+                target="_blank"
+                rel="noopener noreferrer">
+                <div class="content-overlay"></div>
+                <div class="cert-header">
+                <img class="logo_img" style={{borderRadius:"12px"}} src="https://yt3.ggpht.com/a/AGF-l7-rOqnsoRaW8LTM75Y2vuElIySnOe18OPUNnA=s900-c-k-c0xffffffff-no-rj-mo" alt="" />
+                </div>
+                <div class="content-details fadeIn-top">
+                  <h2 class="content-title" style={{ color: "orange" ,fontSize:"22px"}}>
+                  Containerize a full-stack NodeJS <br/> application in
+Docker
+                  </h2>
+                </div>
+              </a>
+            </div>
+            <div class="cert-body">
+              <h2 class="cert-body-title">
+                <div class="resume-main-heading">
+                  <div class=""></div>
+                  <span style={{ textTransform: "uppercase",textAlign:"center"}}>
+                  Coursera Certification <br/> 
+                    </span>
+                  <br/>
+                  <div class="heading-date">2022</div>
+                </div>
+              </h2>
+            </div>
+          </div>
+  
+          <br/>
+          <br/>
+
           <div class="react-reveal cert-card">
             <div class="content">
               <a
@@ -382,11 +492,20 @@ export default function ResumeMe() {
                 <div class="resume-main-heading">
                   <div class="heading-bullet"></div>
                 </div>
-                               <span
+                  <span
                   style={{ textTransform: "uppercase", fontWeight: "bold" }}
                 >Oracle Database
                 </span>
+                
+                <div class="resume-main-heading">
+                  <div class="heading-bullet"></div>
+                </div>
+                  <span
+                  style={{ textTransform: "uppercase", fontWeight: "bold" }}
+                >C
+                </span>
             </div>
+            
    
         </div>
       </div>

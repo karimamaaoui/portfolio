@@ -8,7 +8,6 @@ import ResumeMe from './portfolioContainer/resume/ResumeMe';
 function App() {
   return (
     <div className="App">
-      
       <Home/>
       <AboutMe/>
       <ResumeMe/>
